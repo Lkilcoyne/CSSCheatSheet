@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Selectors</title>
+  <link href="/styles.css" rel="stylesheet">
+</head>
+
+<header>
+  <h1>CSS Selectors Reference</h1>
+</header>
+  <main>
+    <h3>CSS Selectors</h3>
+    <table class="selectors">
+        <thead>
+          <td>Tag</td>
+          <td>Name</td>
+          <td>Description</td>
+        </thead>
+      <tr>
+      <td>p</td>
+      <td>Type</td>
+      <td>Matches the type of "element" in the html Doc</td>
+        </tr>
+      <tr>
+        <td>*</td>
+        <td>Universal</td>
+        <td>Selects all elements</td>
+      </tr>
+        <tr>
+          <td>.'class attribute'</td>
+          <td>Class</td>
+          <td>Giving a description to an ellement. A way to select specific elements in CSS</td>
+      </tr>
+        <tr>
+          <td>#idname</td>
+          <td>ID</td>
+          <td>Giving an element an id attribute</td>
+      </tr>
+        <tr>
+          <td>[attribute]</td>
+          <td>Attribute</td>
+          <td>Used to target html elements that already contain elements</td>
+      </tr>
+        <tr>
+          <td>,</td>
+          <td>Grouping Selectors</td>
+          <td>Selects all matching selectors</td>
+      </tr>
+    </table>
+  <h3>Combinators</h3>
+     
+      <table class="combinator"> 
+          <theader>
+           <td>Tag</td>
+           <td>Name</td>
+           <td>Description</td>
+        </theader>
+          <tr>
+        <td>" "</td>
+        <td>Descendant Combinator</td>
+        <td>The space combinator selects elements that are descendants of the first element</td>
+      </tr>
+      <tr>
+        <td> &gt; </td>
+        <td> Child Combinator</td>
+        <td>Selects elements that are direct children of the first element</td>
+        </tr>
+        <tr>
+          <td> ~ </td>
+          <td> General Sibling</td>
+          <td>Selects siblings. The second element selects the first but not necessarily immediately. Both share the same parent</td>
+          </tr>
+        <tr>
+            <td>+</td>
+            <td>Adjacent Sibling</td>
+            <td>Matches the second element only if it immediately follows the first</td>
+            </tr>
+          <tr> 
+            <td>||</td>
+            <td>Column Combinator</td>
+            <td>Selects elements that belong to a column</td> 
+          </tr>
+        </table>
+  </main>
+</html>
