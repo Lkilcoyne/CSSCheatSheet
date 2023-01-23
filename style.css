@@ -1,0 +1,22 @@
+html{
+  background-color: WhiteSmoke;
+}
+
+h1{
+  color:SlateGray;
+}
+
+h3{
+  color:SteelBlue;
+  text-align: center;
+  font-family: Helvetica Nue, Helvetica, serif;
+  background-color: PowderBlue;
+}
+
+.selectors{
+  border: solid black;
+}
+
+.combinator{
+  border: solid black;
+}
